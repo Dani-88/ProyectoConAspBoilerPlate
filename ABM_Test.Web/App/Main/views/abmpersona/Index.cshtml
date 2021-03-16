@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ABM_Test.EntityFramework.Personaa>
+
+@{
+    ABM_Test.EntityFramework.ABM_TestDbContext db = new ABM_Test.EntityFramework.ABM_TestDbContext();
+    ViewBag.Title = "Index";
+}
+
+<h2>ABM de Personas</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "../Personaa/Create", null, new {@class = "btn btn-info" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Nombre Completo
+        </th>
+        <th>
+            Direccion
+        </th>
+        <th>
+            Edad
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in db.Personaas) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>
+            @Html.ActionLink(" Edit", "../Personaa/Edit", null, new { id = item.Id, @class = "btn btn-warning glyphicon glyphicon-pencil" })
+            @Html.ActionLink(" Details", "../Personaa/Details", null, new { id = item.Id, @class = "btn btn-success glyphicon glyphicon-search" })
+            @Html.ActionLink(" Details", "../Personaa/Delete", null, new { id = item.Id, @class = "btn btn-danger glyphicon glyphicon-trash" })
+        </td>
+    </tr>
+}
+
+</table>
