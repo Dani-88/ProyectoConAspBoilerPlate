@@ -1,46 +1,60 @@
-﻿@model IEnumerable<ABM_Test.EntityFramework.Personaa>
+﻿<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="card main-content">
+        @model IEnumerable<ABM_Test.EntityFramework.Personaa>
 
-@{
-    ABM_Test.EntityFramework.ABM_TestDbContext db = new ABM_Test.EntityFramework.ABM_TestDbContext();
-    ViewBag.Title = "Index";
-}
+        @{
+            ABM_Test.EntityFramework.ABM_TestDbContext db = new ABM_Test.EntityFramework.ABM_TestDbContext();
+            ViewBag.Title = "Index";
+        }
+        <div class="card main-content">
+            <div class="header">
+                <h2>ABM de Personas</h2>
+            </div>
+        </div>
 
-<h2>ABM de Personas</h2>
+        <div class="col-md-10">
+        </div>
+        <div class="col-md-1">
+            @Html.ActionLink("Crear nuevo", "../Personaa/Create", null, new { @class = "btn btn-info" })
+        </div>
+        <div class="col-md-1">
+        </div>
+        <br />
 
-<p>
-    @Html.ActionLink("Crear nuevo", "../Personaa/Create", null, new {@class = "btn btn-info" })
-</p>
-<table class="table">
-    <tr>
-        <th>
-            Nombre Completo
-        </th>
-        <th>
-            Direccion
-        </th>
-        <th>
-            Edad
-        </th>
-        <th></th>
-    </tr>
+        <table class="table">
+            <tr>
+                <th>
+                    Nombre Completo
+                </th>
+                <th>
+                    Direccion
+                </th>
+                <th>
+                    Edad
+                </th>
+                <th></th>
+            </tr>
 
-@foreach (var item in db.Personaas) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.FullName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Age)
-        </td>
-        <td>
-            @Html.ActionLink(" Edit", "../Personaa/Edit", null, new { id = item.Id, @class = "btn btn-warning glyphicon glyphicon-pencil" })
-            @Html.ActionLink(" Details", "../Personaa/Details", null, new { id = item.Id, @class = "btn btn-success glyphicon glyphicon-search" })
-            @Html.ActionLink(" Details", "../Personaa/Delete", null, new { id = item.Id, @class = "btn btn-danger glyphicon glyphicon-trash" })
-        </td>
-    </tr>
-}
+            @foreach (var item in db.Personaas)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td>
+                        @Html.ActionLink(" Edit", "../Personaa/Edit", null, new { id = item.Id, @class = "btn btn-warning glyphicon glyphicon-pencil" })
+                        @Html.ActionLink(" Details", "../Personaa/Details", null, new { id = item.Id, @class = "btn btn-success glyphicon glyphicon-search" })
+                        @Html.ActionLink(" Details", "../Personaa/Delete", null, new { id = item.Id, @class = "btn btn-danger glyphicon glyphicon-trash" })
+                    </td>
+                </tr>
+            }
 
-</table>
+        </table>
+    </div>
+        </div>

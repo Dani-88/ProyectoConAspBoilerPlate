@@ -4715,3 +4715,109 @@ DEBUG 2021-03-16 11:27:17,830 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 WARN  2021-03-16 11:27:20,491 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
 DEBUG 2021-03-16 11:27:20,940 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aac8fec2-47a7-40b5-9c23-58b398039dfc","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T11:27:20.9403356-03:00","Properties":{}}
 DEBUG 2021-03-16 11:27:20,945 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aac8fec2-47a7-40b5-9c23-58b398039dfc
+DEBUG 2021-03-16 13:02:38,595 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-03-16 13:02:38,608 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-03-16 13:02:38,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABM_Test.Web.ABM_TestWebModule, ABM_Test.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABM_Test.ABM_TestDataModule, ABM_Test.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABM_Test.ABM_TestCoreModule, ABM_Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABM_Test.ABM_TestApplicationModule, ABM_Test.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABM_Test.Api.ABM_TestWebApiModule, ABM_Test.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:38,625 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-03-16 13:02:38,914 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-16 13:02:38,914 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-16 13:02:38,914 [1    ] o.Configuration.LanguageManagementConfig - Converted ABM_Test (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-16 13:02:38,914 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-16 13:02:39,453 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ABM_Test.EntityFramework.ABM_TestDbContext, ABM_Test.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-16 13:02:42,034 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-03-16 13:02:42,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-03-16 13:02:42,245 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-03-16 13:02:42,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ABM_Test
+DEBUG 2021-03-16 13:02:42,309 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-03-16 13:02:42,499 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-03-16 13:02:42,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-03-16 13:02:42,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-03-16 13:02:42,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-03-16 13:02:42,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Users.Dto.CreateUserDto
+DEBUG 2021-03-16 13:02:42,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Users.Dto.UpdateUserDto
+DEBUG 2021-03-16 13:02:42,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Users.Dto.UserDto
+DEBUG 2021-03-16 13:02:42,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Roles.Dto.PermissionDto
+DEBUG 2021-03-16 13:02:42,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-03-16 13:02:42,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-03-16 13:02:42,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.MultiTenancy.Dto.TenantDto
+DEBUG 2021-03-16 13:02:42,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-03-16 13:02:42,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABM_Test.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-03-16 13:02:45,404 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-03-16 13:02:45,406 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-03-16 13:02:45,407 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-03-16 13:02:45,409 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-03-16 13:02:45,410 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-03-16 13:02:45,411 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ABM_Test.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2021-03-16 13:02:49,879 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   en Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   en Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   en Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   en Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2021-03-16 13:03:07,835 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:03:08,591 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"df1a465c-ebbf-4810-89ac-b17bc829bcbf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:03:08.5919853-03:00","Properties":{}}
+DEBUG 2021-03-16 13:03:08,623 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: df1a465c-ebbf-4810-89ac-b17bc829bcbf
+DEBUG 2021-03-16 13:04:51,197 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: df1a465c-ebbf-4810-89ac-b17bc829bcbf
+WARN  2021-03-16 13:04:51,753 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:04:52,147 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"959ba002-cef4-4619-b154-dfd96b597b10","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:04:52.1476217-03:00","Properties":{}}
+DEBUG 2021-03-16 13:04:52,153 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 959ba002-cef4-4619-b154-dfd96b597b10
+DEBUG 2021-03-16 13:05:34,466 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 959ba002-cef4-4619-b154-dfd96b597b10
+WARN  2021-03-16 13:05:35,010 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:05:35,258 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ae1894a9-4d1e-4e76-9515-85b6c3e5278a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:05:35.2584395-03:00","Properties":{}}
+DEBUG 2021-03-16 13:05:35,263 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ae1894a9-4d1e-4e76-9515-85b6c3e5278a
+DEBUG 2021-03-16 13:06:30,207 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ae1894a9-4d1e-4e76-9515-85b6c3e5278a
+WARN  2021-03-16 13:06:30,762 [65   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:06:31,088 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21931660-26af-4487-8df2-5d18709e6939","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:06:31.0870821-03:00","Properties":{}}
+DEBUG 2021-03-16 13:06:31,094 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21931660-26af-4487-8df2-5d18709e6939
+DEBUG 2021-03-16 13:06:56,765 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21931660-26af-4487-8df2-5d18709e6939
+WARN  2021-03-16 13:06:57,295 [62   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:06:57,613 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b7c16a88-7339-4690-bec7-a5fa92c5214f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:06:57.6133233-03:00","Properties":{}}
+DEBUG 2021-03-16 13:06:57,619 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b7c16a88-7339-4690-bec7-a5fa92c5214f
+DEBUG 2021-03-16 13:07:23,060 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b7c16a88-7339-4690-bec7-a5fa92c5214f
+WARN  2021-03-16 13:07:23,659 [67   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:07:23,948 [67   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f8812ab6-f6a7-41a1-bb5b-2629f4a98c37","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:07:23.9487856-03:00","Properties":{}}
+DEBUG 2021-03-16 13:07:23,955 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f8812ab6-f6a7-41a1-bb5b-2629f4a98c37
+DEBUG 2021-03-16 13:07:49,863 [69   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f8812ab6-f6a7-41a1-bb5b-2629f4a98c37
+WARN  2021-03-16 13:07:50,334 [72   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:07:50,642 [79   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f962bc0e-2814-44be-8330-9bf52f930fb0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:07:50.642832-03:00","Properties":{}}
+DEBUG 2021-03-16 13:07:50,654 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f962bc0e-2814-44be-8330-9bf52f930fb0
+DEBUG 2021-03-16 13:08:01,416 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f962bc0e-2814-44be-8330-9bf52f930fb0
+WARN  2021-03-16 13:08:01,947 [84   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:08:02,294 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"17a2fd86-ea1b-4c62-82d9-81af90233bc4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:08:02.294315-03:00","Properties":{}}
+DEBUG 2021-03-16 13:08:02,304 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 17a2fd86-ea1b-4c62-82d9-81af90233bc4
+DEBUG 2021-03-16 13:08:37,216 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 17a2fd86-ea1b-4c62-82d9-81af90233bc4
+WARN  2021-03-16 13:08:37,820 [79   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:08:38,150 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f47e1d42-d871-48d1-8b90-970497bb796c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:08:38.1500755-03:00","Properties":{}}
+DEBUG 2021-03-16 13:08:38,156 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f47e1d42-d871-48d1-8b90-970497bb796c
+DEBUG 2021-03-16 13:09:02,380 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f47e1d42-d871-48d1-8b90-970497bb796c
+WARN  2021-03-16 13:09:02,967 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:09:03,275 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"33e2e083-2783-4ba1-8cfd-4b69733e5092","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:09:03.2752767-03:00","Properties":{}}
+DEBUG 2021-03-16 13:09:03,281 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 33e2e083-2783-4ba1-8cfd-4b69733e5092
+DEBUG 2021-03-16 13:09:25,048 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 33e2e083-2783-4ba1-8cfd-4b69733e5092
+WARN  2021-03-16 13:09:25,508 [67   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:09:25,790 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a9305bfd-901d-487c-b81b-7b498f0505e8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:09:25.7905593-03:00","Properties":{}}
+DEBUG 2021-03-16 13:09:25,796 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a9305bfd-901d-487c-b81b-7b498f0505e8
+DEBUG 2021-03-16 13:09:54,557 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a9305bfd-901d-487c-b81b-7b498f0505e8
+WARN  2021-03-16 13:09:55,172 [67   ] naries.DictionaryBasedLocalizationSource - Can not find 'ABMPersona' in localization source 'ABM_Test'!
+DEBUG 2021-03-16 13:09:55,388 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aadce617-0e47-4652-b1d8-6de82411a71b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-16T13:09:55.3886853-03:00","Properties":{}}
+DEBUG 2021-03-16 13:09:55,394 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aadce617-0e47-4652-b1d8-6de82411a71b
